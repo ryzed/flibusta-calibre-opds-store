@@ -20,8 +20,8 @@ from calibre.gui2.store.search_result import SearchResult
 
 class FlibustaStore(StorePlugin):
 
-    open_search_url = 'http://flibusta.is/opds-opensearch.xml'
-    web_url = 'http://flibusta.is/'
+    open_search_url = 'https://raw.githubusercontent.com/alardus/flibusta-calibre-opds-store/main/opds-opensearch.xml'
+    web_url = 'https://flub.flibusta.is'
 
     def open(self, parent=None, detail_item=None, external=False):
         if not hasattr(self, 'web_url'):
