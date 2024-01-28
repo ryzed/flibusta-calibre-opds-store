@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>Флибуста</ShortName>
+   <Description>Книжное братство</Description>
+   <Tags></Tags>
+   <Contact></Contact>
+   <Url type="application/atom+xml"
+        indexOffset="0" pageOffset="0"
+        template="https://flub.flibusta.is/opds/search?searchTerm={searchTerms}&amp;searchType=books&amp;pageNumber={startPage?}"/>
+   <SearchForm>http://flibusta.is/booksearch</SearchForm>
+   <LongName>Флибуста</LongName>
+   <Image width="16" height="16">http://flibusta.is/sites/default/files/favicon.ico</Image>
+   <Developer></Developer>
+   <Attribution></Attribution>
+   <SyndicationRight>open</SyndicationRight>
+   <AdultContent>false</AdultContent>
+   <Language>*</Language>
+   <OutputEncoding>UTF-8</OutputEncoding>
+   <InputEncoding>UTF-8</InputEncoding>
+ </OpenSearchDescription>
