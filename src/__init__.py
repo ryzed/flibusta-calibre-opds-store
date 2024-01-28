@@ -10,5 +10,7 @@ from calibre.customize import StoreBase
 
 class FlibustaStore(StoreBase):
     name = 'Флибуста'
+    version = (0, 0, 2)
+    author = 'Sergey Kuznetsov, Eduard Ryzhov, Alexander Bykov'
     description = _('Книжное братство')
     actual_plugin = 'calibre_plugins.store_flibusta.flibusta:FlibustaStore'
